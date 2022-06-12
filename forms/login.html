@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <link rel="icon" href="https://static.xx.fbcdn.net/rsrc.php/yD/r/d4ZIVX-5C-b.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+  <div class="container">
+    <section class="content">
+      <div class="info">
+        <h1>facebook</h1>
+        <div class="desc">
+          <h2>آخر عمليات تسجيل الدخول</h2>
+          <p>يمكنك النقر على صورتك أو إضافة حساب.</p>
+        </div>
+        <div class="persons">
+          <div class="box">
+            <img class="profile" src="image/pic2.jpg" alt="">
+            <div class="title">
+              taher
+            </div>
+          </div>
+          <div class="box">
+            <img class="plus" src="image/material-icon-2155448_960_720.webp" alt="">
+            <div class="title add">
+              <a class="" href="#">اضافة حساب</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="form-login">
+      <form novalidate id="form" action="../facebook template/face.html">
+        <div class="email-adderss">
+          <input id="email" type="email" placeholder="البريد الالكتروني او رقم الهاتف">
+        </div>
+        <div class="pass">
+          <input id="password" type="password" title="كلمه السر يجب ان تحتوي علي اكثر من 6 احرف" placeholder="كلمة السر">
+          <label for="show"><i class="fa-solid fa-eye show-pass"></i></label>
+          <input type="checkbox" id="show">
+        </div>
+        <input type="submit" value="تسجيل الدخول">
+        <a href="#">هل نسيت كلمةالسر ؟</a>
+        <hr>
+        <a class="register" href="register.html">انشاء حساب جديد</a>
+      </form>
+    </section>
+    </section>
+    
+  </div>
+  <script src="js/login.js"></script>
+</body>
+</html>
